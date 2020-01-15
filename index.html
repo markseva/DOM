@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Notes</title>
+    <link rel="stylesheet" tpye="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload = init()>
+<!-- This project is going yo demonstrate how to modify the HTML elements from the JS file. This known as DOM manipulation. DOM stands for Document Object Model -->
+<div id="block1" onclick="toggleClass(this)" onmouseover="addClass(this)" onmouseout="removeClass(this)">OVER</div>
+<div id="block2" onclick="toggleClass(this)" onmouseover="addClass(this)" onmouseout="removeClass(this)">ENTER</div>
+<div id="block3" onclick="toggleClass(this)" onmouseover="addClass(this)" onmouseout="removeClass(this)">DOWN</div>
+<p id="hidden" onmouseover="showHidden()"></p>
+</body>
+</html>
